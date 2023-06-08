@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Project Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+The Project Management Dashboard is a full-stack React web application designed to streamline project management and collaboration. It provides users with a powerful set of features and functionalities to effectively manage projects, tasks, and timelines. By leveraging the capabilities of Firebase for data storage and retrieval, implementing authentication using Firebase, and integrating with Google APIs, this dashboard offers a seamless and secure user experience. Users can register for an account or log in to access various features and functionalities.
 
-## Available Scripts
+**Website : 
+ You can access the Project Management Dashboard by following this link: https://pmdashboard-4684f.web.app/**
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**User Registration and Login:** Users can securely create an account or log in to access the dashboard.
 
-### `npm test`
+**CRUD Operations:** Users can perform Create, Read, Update, and Delete operations on projects and comments.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Privilege Access Controls:** The admin user has full control over managing projects, comments, and user accounts. Users have least controls. 
 
-### `npm run build`
+**Real-time Updates:** Users experience real-time updates for logged-in actions such as project creation, deletion, and comments.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Filtering:** A filter allows users to sort and view different projects or focus on their own projects specifically.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**User Assignment:** Projects can be assigned to specific users using arrays and map data structures during creation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Calendar API Integration:** The dashboard integrates a calendar API, enabling users to manage project timelines and schedule events.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Installation and Setup
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To set up the project locally, please follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1) Clone the repository:
+ git clone https://github.com/ZCodes101/Project-Management-Dashboard.git 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2) Navigate to the project directory:
+cd project-management-dashboard 
 
-## Learn More
+3) Install the dependencies:
+ npm install 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4) Create a Firebase project and set up the necessary configurations.
 
-### Code Splitting
+5) Update the Firebase configuration details in the project:
+Open the .env file and replace the placeholder values with your Firebase project's credentials.
+Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ npm start 
 
-### Analyzing the Bundle Size
+Open your browser and visit http://localhost:3000 to access the Project Management Dashboard locally.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Technologies Used
+**React:** A popular JavaScript library for building user interfaces that enables efficient rendering and management of UI components.
 
-### Making a Progressive Web App
+**Firebase:** A Backend-as-a-Service platform that offers data storage, retrieval, and authentication services, providing a secure and scalable infrastructure for the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**JavaScript:** The primary programming language used for implementing interactivity, logic, and dynamic behavior within the dashboard.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**HTML/CSS:** The standard markup language and styling framework used for structuring and presenting the web pages, ensuring an appealing and user-friendly interface.
