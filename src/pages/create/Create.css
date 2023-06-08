@@ -1,0 +1,10 @@
+.create-form {
+  max-width: 600px;
+  padding-bottom: 20px; /* Add the desired padding value */
+}
+.assignTo + .select__control {
+  position: sticky;
+  top: 0;
+  max-height: 200px; /* Adjust the height as per your preference */
+  overflow-y: auto;
+}
