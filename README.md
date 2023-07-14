@@ -6,6 +6,10 @@ The Project Management Dashboard is a full-stack React web application designed 
 **Website : 
  You can access the Project Management Dashboard by following this link: https://pmdashboard-4684f.web.app/**
 
+Test account login ---> 
+**Username: test@test.com
+ Password: test123**
+
 
 
 ## Features
